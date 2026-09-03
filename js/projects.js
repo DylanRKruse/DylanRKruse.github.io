@@ -86,7 +86,7 @@ function renderProjectDetail(containerId) {
     return;
   }
 
-  document.title = `${project.title} — Your Name`;
+  document.title = `${project.title} — Dylan Kruse`;
 
   const writeupLink =
     project.links.writeup && project.links.writeup !== "#"
