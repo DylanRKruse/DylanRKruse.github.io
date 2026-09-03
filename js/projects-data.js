@@ -13,10 +13,10 @@
 const PROJECTS = [
   {
     slug: "project-one",
-    title: "Project name one",
-    dateRange: "Placeholder date range",
-    summary: "One or two sentence description of the problem you were solving and what you actually built or contributed.",
-    tags: ["Placeholder tag", "Placeholder tag"],
+    title: "Demining Device",
+    dateRange: "Jan 2026 - May 2026",
+    summary: "Tasked with creating a prototype vehicle capable to detecting and removing land mines.",
+    tags: ["CAD", "Drivetrains"],
     image: null,
     links: {
       writeup: null,      // external write-up URL, or null
