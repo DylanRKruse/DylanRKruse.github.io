@@ -11,7 +11,7 @@ const NAV_LINKS = [
   { href: "contact.html", label: "Contact" },
 ];
 
-const SITE_NAME = "Dylan Kruse"; // <-- change this to your name
+const SITE_NAME = "Your Name"; // <-- change this to your name
 
 function currentPage() {
   const path = window.location.pathname.split("/").pop();

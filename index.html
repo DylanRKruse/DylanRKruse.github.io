@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dylan Kruse — Engineering Portfolio</title>
+  <title>Your Name — Engineering Portfolio</title>
   <meta name="description" content="Engineering portfolio of Your Name." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,16 +19,26 @@
 
     <div class="hero-content">
       <p class="hero-role">Engineering Portfolio</p>
-      <h1>Dylan Kruse</h1>
+      <h1>Your Name</h1>
       <p class="hero-lede">
         I design and build things that have to actually work — placeholder line
         about your discipline, focus area, and what kind of problems you like solving.
         Swap this for a sentence that sounds like you.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="projects.html">View Projects</a>
+        <a class="btn btn-primary" href="projects.html">View projects</a>
         <a class="btn btn-secondary" href="about.html">About me</a>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap wrap--wide">
+      <p class="eyebrow">Featured work</p>
+      <h2>A few things I've built</h2>
+    </div>
+    <div class="scroll-row" id="featured-projects" aria-label="Featured projects, scroll for more">
+      <!-- filled in by js/projects.js from js/projects-data.js -->
     </div>
   </section>
 
@@ -37,13 +47,18 @@
       <p class="eyebrow">Currently</p>
       <h2>A short line about where you are right now</h2>
       <p class="hero-lede">
-        Placeholder — e.g. "Studying Engineering Technology at LeTourneau University, focused on
-        Mechanical." Replace with your real one-liner.
+        Placeholder — e.g. "Studying Mechanical Engineering at [University], focused on
+        [specialty]." Replace with your real one-liner.
       </p>
     </div>
   </section>
 
   <script src="js/nav.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/projects.js"></script>
+  <script>
+    renderScrollCards("featured-projects");
+  </script>
   <script>
     // Draw a sparse blueprint-style hairline grid + one accent diagonal.
     (function () {

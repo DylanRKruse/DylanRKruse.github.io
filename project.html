@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects — Your Name</title>
+  <title>Project — Your Name</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -12,24 +12,16 @@
 <body>
 
   <div class="page-header">
-    <div class="wrap wrap--wide">
-      <p class="eyebrow">Projects</p>
-      <h1>Things I've built</h1>
-      <p>A running list of coursework, personal builds, and research. Replace these with your real projects.</p>
+    <div class="wrap wrap--wide" id="project-detail">
+      <!-- filled in by js/projects.js based on ?slug= -->
     </div>
   </div>
-
-  <section>
-    <div class="wrap wrap--wide project-list" id="project-list">
-      <!-- filled in by js/projects.js from js/projects-data.js -->
-    </div>
-  </section>
 
   <script src="js/nav.js"></script>
   <script src="js/projects-data.js"></script>
   <script src="js/projects.js"></script>
   <script>
-    renderProjectList("project-list");
+    renderProjectDetail("project-detail");
   </script>
 </body>
 </html>
