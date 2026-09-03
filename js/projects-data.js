@@ -17,7 +17,7 @@ const PROJECTS = [
     dateRange: "Jan 2026 - May 2026",
     summary: "Tasked with creating a prototype vehicle capable to detecting and removing land mines.",
     tags: ["CAD", "Drivetrains"],
-    image: null,
+    image: [assets\images\projects\project-one\project-one.jpeg],
     links: {
       writeup: null,      // external write-up URL, or null
       github: "#",
